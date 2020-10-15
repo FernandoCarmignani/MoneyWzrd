@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Money Wzrd</string>
+    <string name="button1">Home</string>
+    <string name="button2">Expenses</string>
+    <string name="button3">Investments</string>
+    <string name="button4">More</string>
+    <string name="Homebtn">Home</string>
+    <string name="Accbtn">Accounts</string>
+    <string name="Expbtn">Expenses</string>
 </resources>

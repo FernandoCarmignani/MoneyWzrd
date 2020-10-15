@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Homebtn"
+        android:enabled="true"
+        android:icon="@drawable/ic_act_button"
+        android:title="@string/Homebtn"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/AccBtn"
+        android:enabled="true"
+        android:icon="@drawable/ic_accounts_btn"
+        android:title="@string/Accbtn"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/Expbtn"
+        android:enabled="true"
+        android:icon="@drawable/ic_expenses_btn"
+        android:title="@string/Expbtn"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/InvBtn"
+        android:enabled="true"
+        android:icon="@drawable/ic_investments_btn"
+        android:title="@string/Accbtn"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/SetBtn"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings_btn"
+        android:title="@string/Accbtn"
+        app:showAsAction="ifRoom" />
+
+</menu>
