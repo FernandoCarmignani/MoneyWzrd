@@ -3,11 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/accounts">
+    app:startDestination="@id/nav_accounts">
 
     <fragment
-        android:id="@+id/accounts"
+        android:id="@+id/nav_accounts"
         android:name="ISpyCorp.MZ.moneywzrd.accounts.Accounts"
         android:label="accounts_fragment"
+        tools:layout="@layout/accounts_fragment" />
+    <fragment
+        android:id="@+id/nav_expenses"
+        android:name="ISpyCorp.MZ.moneywzrd.accounts.Accounts"
+        android:label="expenses_fragment"
+        tools:layout="@layout/accounts_fragment" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ISpyCorp.MZ.moneywzrd.accounts.Accounts"
+        android:label="home_fragment"
+        tools:layout="@layout/accounts_fragment" />
+    <fragment
+        android:id="@+id/nav_investments"
+        android:name="ISpyCorp.MZ.moneywzrd.accounts.Accounts"
+        android:label="investments_fragment"
+        tools:layout="@layout/accounts_fragment" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="ISpyCorp.MZ.moneywzrd.accounts.Accounts"
+        android:label="settings_fragment"
         tools:layout="@layout/accounts_fragment" />
 </navigation>
