@@ -23,13 +23,13 @@
         android:id="@+id/InvBtn"
         android:enabled="true"
         android:icon="@drawable/ic_investments_btn"
-        android:title="@string/Accbtn"
+        android:title="@string/Invbtn"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/SetBtn"
         android:enabled="true"
         android:icon="@drawable/ic_settings_btn"
-        android:title="@string/Accbtn"
+        android:title="@string/Setbtn"
         app:showAsAction="ifRoom" />
 
 </menu>

@@ -7,4 +7,6 @@
     <string name="Homebtn">Home</string>
     <string name="Accbtn">Accounts</string>
     <string name="Expbtn">Expenses</string>
+    <string name="Invbtn">Investments</string>
+    <string name="Setbtn">Settings</string>
 </resources>
